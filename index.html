@@ -1,0 +1,43 @@
+<html>
+<header>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>
+        Ihsans Twitter Scraper
+    </title>
+</header>
+<body>
+    <div class="left">
+        <div class = "option">
+            <button id = "AllTweets"> GET </button>
+            <p>all tweets available in the archive</p>
+        </div>
+        <div class = "option">
+            <button id = "AllUsers"> GET </button>
+            <p>all known Twitter users included in the archive</p>
+        </div>
+        <div class = "option">
+            <button id = "AllExternalLinks"> GET </button>
+            <p>a list of all external links included in tweets from the archive</p>
+        </div>
+        <div class = "option">
+            <button id = "UserExpandedURL"> GET </button>
+            <p>the expanded url for each user</p>
+        </div>
+        <div class = "option">
+            <button id = "TweetInformation"> GET </button>
+            <p>details about</p>
+            <input id = "twitterID" type="text" placeholder="Twitter ID">
+        </div>
+        <div class = "option">
+            <button id = "UserInformation"> GET </button>
+            <p>details about</p>
+            <input id="screenName" type="text" placeholder="User Screen Name">
+        </div>
+    </div>
+    <pre class="right">
+        Query results appear here
+    </pre>
+</body>
+<script src="jquery.js"></script>
+<script src="client.js"></script>
+</html>
